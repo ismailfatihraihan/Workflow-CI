@@ -37,7 +37,6 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    mlflow.set_experiment("ci-breast-cancer-training")
     mlflow.sklearn.autolog(log_input_examples=True, log_model_signatures=True)
 
     x_train, x_test, y_train, y_test = load_dataset(args.data_dir)
