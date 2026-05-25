@@ -1,0 +1,10 @@
+name: smsml_breast_cancer
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_dir: {type: str, default: "breast_cancer_preprocessing"}
+    command: "python modelling.py --data-dir {data_dir}"
+

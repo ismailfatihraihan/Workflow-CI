@@ -1,0 +1,7 @@
+Opsional advanced:
+https://hub.docker.com/r/<dockerhub-username>/smsml-breast-cancer
+
+Isi GitHub Secrets berikut sebelum mengaktifkan push Docker image:
+- DOCKERHUB_USERNAME
+- DOCKERHUB_TOKEN
+
