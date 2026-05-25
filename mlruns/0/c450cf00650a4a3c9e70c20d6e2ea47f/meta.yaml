@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/c450cf00650a4a3c9e70c20d6e2ea47f/artifacts
+end_time: 1779707866333
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c450cf00650a4a3c9e70c20d6e2ea47f
+run_name: dapper-stork-886
+run_uuid: c450cf00650a4a3c9e70c20d6e2ea47f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779707857188
+status: 3
+tags: []
+user_id: runner
